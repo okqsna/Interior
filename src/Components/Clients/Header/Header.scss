@@ -1,0 +1,43 @@
+$grey:#E0E0E0;
+$white:#ffff;
+$fontFam:'Nunito Sans';
+$weight400:400;
+.Header{
+    width: 100%;
+    height: 150px;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .Header__txt{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .Header__txt__title{
+            height: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap:0px 10px;
+            .Header__txt__title__line{
+                width: 55px;
+                height: 0px;
+                border: 1.2px solid #E0E0E0;
+            }
+            .p__title{
+                font-family: $fontFam;
+                color: $grey;
+                text-transform: uppercase;
+                font-weight: $weight400;
+                font-size: 16px;
+            }
+        }
+        .Header__txt__mainTitle{
+            font-size: 42px;
+            font-family: $fontFam;
+            color:$white;
+            font-weight: $weight400;
+            font-style: normal;
+        }
+    }
+}

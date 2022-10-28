@@ -1,0 +1,141 @@
+$lightgrey:#F7F7F7;
+$black:#1C1B1B;
+$grey:#737373;
+$weigth400:400;
+$weigth600:600;
+$fontFam:'Nunito Sans';
+$white:#fff;
+.MainTop{
+    width: 100%;
+    height: 300px;
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .row__MainTop{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap:0px 25px;
+        .card__MainTop{
+            width: 255px;
+            height: 345px;
+            display: flex;
+            flex-direction: column;
+            .img__cardMainTop{
+                height: 239px;
+                width: 255px;
+                background-color: $lightgrey;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img{
+                    width: 146px;
+                    height: 143px;
+                    
+                }
+            }
+            .command__cardMainTop{
+                width: 255px;
+                height: 33px;
+                background-color: $black;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                gap:0px 20px;
+                transition: 0.2s;
+                &:hover{
+                     background-color: $grey;
+                     transition: 0.2s;
+                     cursor: pointer;
+                }
+            }
+            .mainTitle{
+                width: 260px;
+                height: 33px;
+                font-size: 18px;
+                line-height: 28px;
+                font-weight: $weigth600;
+                color: $black;
+                font-family: $fontFam;
+                background-color: $white;
+                transition: 0.1s;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                &:hover{
+                    color: $grey;
+                    transition: 0.2s;
+                    cursor: pointer;
+                }
+            }
+            .txt__cardMainTop{
+                width: 255px;
+                height: 33px;
+                background-color: $white;
+                display: flex;
+                flex-direction:row;
+                align-items: center;
+                justify-content: space-between;
+                .price__txt{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    gap:0px 15px;
+                    font-size: 15px;
+                    line-height: 28px;
+                    font-family: $fontFam;
+                    .oldPrice{
+                        color: $grey;
+                    }
+                    .newPrice{
+                        color: $black;
+                    }
+                }
+            }
+            transition: 0.5s;
+            &:hover{
+                margin-bottom: 60px;
+                transition:0.5s;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    .MainTop{
+        justify-content: center;
+        .row__MainTop{
+            display: block;
+            columns: 2;
+            margin-top: 300px;
+            width: 70%;
+            gap:0 70px;
+           .card__MainTop{
+            &:hover{
+                margin-bottom: 0px;
+                transition:none;
+            }
+           }
+        }
+    }
+}
+@media only screen and (max-width:900px) {
+    .MainTop{
+        justify-content: center;
+        margin-top: 400px;
+        .row__MainTop{
+            display: flex;
+            flex-direction: column;
+           .card__MainTop{
+            &:hover{
+                margin-bottom: 0px;
+                transition:none;
+            }
+           }
+        }
+    }
+}

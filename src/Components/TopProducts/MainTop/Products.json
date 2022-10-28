@@ -1,0 +1,26 @@
+[
+    {
+        "img":"https://s3-alpha-sig.figma.com/img/3d40/d40a/b5414330b31d53ed232ecb0f18773c67?Expires=1667779200&Signature=Zg7un1uSO4qrFkxNNq~tvpoVUf0wVRZ6TIrYRIzuWyrsHlNTn8vQ6AzZsNsdZLDngBHkQ08XKsi32pmG86nhJ1v1TW4zv5g5CsYpTAQAHmL7-lA7FBeZwZLqEAtvu6jDG-vwoUQqa0B5B4PE2jpK~opP86XvDASSFRQxYzXwEwlABSE71foD3zT30o7YLV5XZlZQlFp-4GHM9edYxSgsNCPcTi4GwSJMgQnOpwucNz6ml~jCc1ntPL4QOSr3saXxptFAszKHkXftqBa~~OKavUJP699-fL7CErlWy2gDAcGKKOCyUwj4XkygWNu0qHZK5x6VdnG323b-BJTGuGKZBg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "title":"Blue Chair",
+        "oldPrice":"$20.00",
+        "newPrice":"$15.00"
+    },
+    {
+        "img":"https://s3-alpha-sig.figma.com/img/20f9/d5d8/492d8f03a718df513bf1a6f971bbd9c7?Expires=1667779200&Signature=K4I2aJiC8xv8yWjvOKw5fSiPewXZNqt24pN4Hlv-u5KDNP99caIsAPUthXpSCFrY0zij9XzOIqyWok0ozewxuTxM9hUfLWSspOoyuWyRNWFeBm4re4afMZpHIOddYpPbNAToeSX-i4eqa9tNDhhdA5jMHldn4QTyYwzEXPDrlii7UPrIO8cgfiKLoHAp2Dq3cwrY9PZdnuu~Hk3AVyiiCFnKWTzjMfDINktHQ9QIJ8BIR~7pHx0pmykQomW-FcHdS2mU6cXTUFynt2XSpt6~UTtkADjeDhmlmLYHLF2-HRLH4iJqmh3aPKfXZ8iOKFgktz~k6a9onkKR1vhceHQlsQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "title":"Blue Chair",
+        "oldPrice":"$18.00",
+        "newPrice":"$12.00"
+    },
+    {
+        "img":"https://s3-alpha-sig.figma.com/img/bf2c/a23f/ea9e58adf0f35131539e3c1902de4069?Expires=1667779200&Signature=WD6weJZAL7KzzwGoS3951EGYdakSK24H~tOXlQZ5jHcqzcV~bjVj87PX5HM0Z7N8todtfSuAqgLlp9qg~PbJ7Tp5YJnV9bORpyQS7JlPPyKDiipAzCPj5CpEnCTeraNxRju8fD~~CtYnfNAwDLr3jR1LKtGzbr6opHTwg07HIdjhKtqrdYzKGRCI8IvSAhmanHVYu1ZVozbWbOEGf5rFzfKrTZF871E3KUoeJGbEm0ej69HWrK1nz1AcIqcR13kMNyHbqcveY2yh5dyIZAhvbkJ8RqbvMAzDLNXvbqx8-45cHfQ1RRjm7bj0NCdAMbD13P~iY3uuHy3h22uTtNOYuw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "title":"Coral vase",
+        "oldPrice":"",
+        "newPrice":"$15.00"
+    },
+    {
+        "img":"https://s3-alpha-sig.figma.com/img/ef03/682a/c50e966fc58089b22ccdf9d255561ff1?Expires=1667779200&Signature=MIx26FjKYqphtsprX1gZyXjjyL57edBH6vDhl~2IKn5PBBY8o08mI9CR5br7Ak3DwP5D-S0CguJ9iaFIE-pVqlUhtt5fJL2XZF64lhaefEIRq9qk7oQCYt3h1UTFhTgTPU-B~8lfLz3eul~3ZjKxlizJkb0TNumkSQZ8wHJzTfoR~5Me3Og~DkjanCnBmChVjB9GPFe0Glj0mGDpw~nN~7LbmCikzKXBzI528242OlYWvGS1z7lkjWi~4qRxDF7ZHGK~Huds~80nL6l3NlzCwIpH762lrotSP9Oym4QFcdX4x4zEHHG7JL2Hkkgo0DQsaX4LaaKM2cz9BObFZDJ3QA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "title":"Coffee table set",
+        "oldPrice":"",
+        "newPrice":"$15.00"
+    }
+]

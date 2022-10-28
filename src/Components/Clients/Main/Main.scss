@@ -1,0 +1,126 @@
+$white:#fff;
+$brown:#9A6437;
+$lightgrey:#D9D9D9;
+$black:#1B1A1A;
+$deepblack:#0000;
+$grey:#9999;
+$fontFam:'Nunito Sans';
+$weight400:400;
+$weight300:300;
+.Main{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+
+    .Main__container{
+        display: flex;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-around;
+        .card__Main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 255px;
+            height: 314px;
+            background-color: $white;
+            border-inline: 1px soldi $brown;
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            margin-right: 30px;
+            .img__card{
+                width: 112px;
+                height: 112px;
+                border-radius: 50%;
+                background-color: $lightgrey;
+                position: relative;
+                bottom: 45px;
+            }
+            .txt__card{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                h2{
+                    font-size: 24px;
+                    line-height: 24px;
+                    font-style: normal;
+                    font-family: $fontFam;
+                    color: $black;
+                    font-weight: $weight400;
+                    margin-bottom: 10px;
+                }
+                h5{
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-family: $fontFam;
+                    color: $grey;
+                    font-weight: $weight400;
+                }
+                .rating__card{
+                    display: flex;
+                    flex-direction: row;
+                    
+                    p{
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: $weight400;
+                        color: black;
+                        font-family: $fontFam;
+                        margin-top: 5px;
+                        margin-left: 4px;
+                    }
+                }
+                p{
+                    font-weight: $weight300;
+                    color: $grey;
+                    font-family: $fontFam;
+                    text-align: center;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+            transition: 1s;
+            &:hover{
+                transition: 0.5s;
+                cursor: pointer;
+                margin-bottom: 80px;
+                p{
+                    color: $black;
+                }
+                .img__card{
+                    background-color: $black;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:1200px) {
+    .Main{
+        .Main__container{
+            display: block;
+            columns: 2;
+            margin-top: 170px;
+            .card__Main{
+                margin-top:50px;
+                &:hover{
+                    transition: none;
+                    cursor: pointer;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:760px) {
+    .Main{
+        .Main__container{
+            display: flex;
+            flex-direction: column;
+            margin-top: 830px;
+        }
+    }
+}
