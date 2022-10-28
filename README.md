@@ -1,6 +1,6 @@
 
 # Interior
-> My part of a group project
+>  A group project
 
 ### Used Technologies
  - `HTML`
@@ -9,4 +9,4 @@
 - `React JS`
 - `JSON`
  
- *created by @okqsna*
+ *created by Creator IT Academy students*
