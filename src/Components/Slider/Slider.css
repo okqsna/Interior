@@ -1,0 +1,20 @@
+.slider {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 94px; }
+  .slider__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .slider__container__arrow {
+      cursor: pointer; }
+    .slider__container__arrow.left {
+      margin-right: 74px; }
+    .slider__container__arrow.right {
+      margin-left: 74px; }
+
+/*# sourceMappingURL=Slider.css.map */

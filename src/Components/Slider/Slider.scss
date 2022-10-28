@@ -1,0 +1,30 @@
+@mixin flexCenter () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%; min-height: 50vh;
+  @include flexCenter();
+  padding-top: 94px;
+
+  &__container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__arrow {
+      cursor: pointer;
+    }
+
+    &__arrow.left {
+      margin-right: 74px;
+    }
+
+    &__arrow.right {
+      margin-left: 74px;
+    }
+  }
+}

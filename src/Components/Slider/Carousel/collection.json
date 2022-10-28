@@ -1,0 +1,18 @@
+{
+  "collections": [
+    {
+      "name": "New Chair Collection 2022",
+      "img": "img/chair.png"
+    },
+
+    {
+      "name": "Lamp Desk",
+      "img": "img/desk-lamp-marble-table.png"
+    },
+
+    {
+      "name": "New Chair Collection 2022",
+      "img": "img/arm-chair.png"
+    }
+  ]
+}

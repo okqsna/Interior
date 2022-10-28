@@ -1,0 +1,59 @@
+.slider__container__carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px; }
+  .slider__container__carousel__box {
+    width: 350px;
+    height: 449px;
+    background-color: #E5E6E6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 31px 0;
+    position: relative; }
+    .slider__container__carousel__box__title {
+      max-width: 221px;
+      font-size: 30px;
+      font-family: "Nunito Sans", sans-serif;
+      color: #282828;
+      font-weight: 400; }
+    .slider__container__carousel__box__button-canvas {
+      width: 119px;
+      height: 43px;
+      cursor: pointer;
+      position: relative;
+      z-index: 10; }
+    .slider__container__carousel__box span {
+      font-family: 'Nunito Sans', sans-serif;
+      font-weight: 600;
+      font-size: 14px;
+      color: #1B1A1A;
+      text-transform: uppercase;
+      position: absolute;
+      top: 37.5%;
+      left: 12%; }
+  .slider__container__carousel__box:nth-child(1) img {
+    width: 175px;
+    height: 230px;
+    position: relative;
+    left: calc(50% - 48px); }
+  .slider__container__carousel__box:nth-child(2) img {
+    min-width: 350px;
+    height: 260px;
+    position: relative;
+    right: 31px;
+    top: -10px; }
+  .slider__container__carousel__box:nth-child(2) h3 {
+    margin-bottom: 65px; }
+  .slider__container__carousel__box:nth-child(3) img {
+    width: 231px;
+    height: 223px;
+    position: relative;
+    left: 50px; }
+
+/*# sourceMappingURL=Carousel.css.map */
