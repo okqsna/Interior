@@ -1,0 +1,28 @@
+img{
+/*    width: 100px;*/
+/*    height: 100px;*/
+    display: flex;
+}
+
+h2{
+    font-size: 60px;
+}
+
+.root_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.head{
+    margin-bottom: 30px;
+}

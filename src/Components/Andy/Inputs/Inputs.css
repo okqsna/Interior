@@ -1,0 +1,19 @@
+input {
+    width: 610px;
+    height: 73px;
+    background: none;
+    border: 0.8px solid #5A5A5A;
+    border-radius: 4px;
+    font-size: 21px;
+    padding: 0 20px;
+}
+
+.but {
+    width: 254px;
+    height: 73px;
+    border: 0.8px solid #5A5A5A;
+    border-radius: 4px;
+    background: none;
+    font-size: 21px;
+    margin-left: 30px;
+}
