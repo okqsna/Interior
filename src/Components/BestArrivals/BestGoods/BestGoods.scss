@@ -1,0 +1,95 @@
+@mixin flexCenter () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bestGoods {
+  display: grid;
+  grid-auto-flow: column dense; /* column flow with "dense" to fill all the cells */
+  grid-template-rows: 350px 300px; /* 2 rows */
+  grid-auto-columns: 255px;
+  gap: 30px;
+  padding-top: 34px;
+
+  &__good {
+    width: 255px; min-height: 300px;
+
+    &__header {
+      width: 100%; height: 274px;
+      background-color: #F7F7F7;
+      @include flexCenter();
+      flex-direction: column;
+
+      &__img {
+        width: 100%; height: 274px - 33px;
+        @include flexCenter();
+
+        img {
+          max-width: 112px; max-height: 150px;
+        }
+      }
+
+      &__buttons {
+        width: 100%; height: 33px;
+        background-color: #1C1B1B;
+        @include flexCenter();
+        gap: 21px;
+
+        svg {
+          cursor: pointer;
+        }
+      }
+    }
+
+    &__footer {
+      width: 100%; min-height: 51px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__goodInfo {
+        height: 100%;
+        padding-top: 6px;
+
+        &__title {
+          font-family: 'Nunito Sans', sans-serif;
+          font-weight: 600;
+          font-size: 18px;
+          color: #282828;
+          font-style: normal;
+        }
+
+        &__priceBlock {
+          padding: 0;
+          margin-top: 10px;
+          display: flex;
+
+          &__priceToDelete {
+            margin-right: 10px;
+            color: #737373;
+            font-family: 'Nunito Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+          }
+
+          &__price {
+            font-family: 'Nunito Sans', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            color: #1E1D1D;
+          }
+        }
+      }
+
+      &__goodRate {
+        height: 51px;
+        display: flex;
+        align-items: flex-end;
+        gap: 5px;
+      }
+    }
+  }
+}

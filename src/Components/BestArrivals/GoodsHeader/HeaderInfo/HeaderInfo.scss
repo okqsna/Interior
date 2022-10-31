@@ -1,0 +1,27 @@
+.headerInfo {
+  &__description {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #9A6437;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+    &::before {
+      content: '';
+      width: 55px; height: 1px;
+      background-color: #9A6437;
+    }
+  }
+
+  &__title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    color: #1B1A1A;
+    text-transform: capitalize;
+  }
+}

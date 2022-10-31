@@ -1,0 +1,59 @@
+{
+  "bestGoodsArray": [
+    {
+      "name": "Blue chair",
+      "img": "./blueChair.png",
+      "priceToDelete": "$20.00",
+      "price": "$15.00"
+    },
+
+    {
+      "name": "Blue chair",
+      "img": "./bigBlueChair.png",
+      "priceToDelete": "$10.00",
+      "price": "$12.00"
+    },
+
+    {
+      "name": "Coral vase",
+      "img": "./coralVase.png",
+      "priceToDelete": "Nothing to delete",
+      "price": "$15.00"
+    },
+
+    {
+      "name": "Coffe table set",
+      "img": "./coffeTableSet.png",
+      "priceToDelete": "Nothing to delete",
+      "price": "$15.00"
+    },
+
+    {
+      "name": "Decorative vase",
+      "img": "./decorativeVase.png",
+      "priceToDelete": "Nothing to delete",
+      "price": "$25.00"
+    },
+
+    {
+      "name": "Coral vase",
+      "img": "./greenCoralVase.png",
+      "priceToDelete": "$20.00",
+      "price": "$12.00"
+    },
+
+    {
+      "name": "Gray sofa",
+      "img": "./graySofa.png",
+      "priceToDelete": "Nothing to delete",
+      "price": "$15.00"
+    },
+
+    {
+      "name": "Black chair",
+      "img": "./blackChair.png",
+      "priceToDelete": "$20.00",
+      "price": "$15.00"
+    }
+  ]
+}

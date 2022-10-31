@@ -1,0 +1,25 @@
+.headerNav {
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 10px;
+
+  &__button {
+    background-color: transparent;
+    border: none;
+    color: #1C1B1B;
+    text-transform: capitalize;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px 19px;
+  }
+
+  &__button.active,
+  &__button:hover {
+    background-color: #1C1B1B;
+    color: #fff;
+  }
+}
