@@ -4,7 +4,7 @@ import GoodsHeader from './GoodsHeader/GoodsHeader';
 
 const BestArrivals = () => {
   return (
-    <div className='bestArrivals'>
+    <div className='bestArrivals container'>
       <GoodsHeader />
       <BestGoods />
     </div>
